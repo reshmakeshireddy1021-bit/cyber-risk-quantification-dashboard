@@ -4,7 +4,7 @@ This project presents a Cyber Risk Quantification Dashboard built using Power BI
 
 ## Dashboard Preview
 
-![Cyber Risk Dashboard](screenshots/cyberpulse-dashboard-overview.png)
+![Cyber Risk Dashboard](cyberpulse-dashboard-overview.png)
 
 ## Project Overview
 
