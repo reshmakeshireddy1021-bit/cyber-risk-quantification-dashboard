@@ -19,7 +19,7 @@ Total exposure identified: **$185,000,000** across scored risk categories.
 
 ## 📊 Dashboard Preview
 
-> *(Add Power BI screenshot here)*
+![Cyber Risk Dashboard](cyberpulse-dashboard-overview.png)
 
 ---
 
