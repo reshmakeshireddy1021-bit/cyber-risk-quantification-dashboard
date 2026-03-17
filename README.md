@@ -23,23 +23,44 @@ Total exposure identified: **$185,000,000** across scored risk categories.
 
 ---
 
-## 🏗️ Project Workflow
+🏗️ Project Workflow
 
-```
 Raw Vulnerability Data
         │
         ▼
-Python ETL Layer (Data Cleaning & Processing)
-        │
-        ▼
-Risk Scoring (CVSS-based severity analysis)
-        │
-        ▼
-Financial Exposure Estimation (~$185M)
-        │
-        ▼
-Power BI Dashboard (KPIs, Insights, Visualization)
-```
+┌──────────────────────┐
+│   Python ETL Layer   │  ← cyber_risk_analysis.ipynb
+│  Data cleaning,      │
+│  enrichment, prep    │
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│   Risk Scoring       │  ← CVSS-based severity scoring
+│   Engine             │     weighted by vulnerability
+│                      │     distribution and frequency
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  Financial Exposure  │  ← Severity-weighted exposure
+│  Estimation          │     estimation model
+│  ($185M total)       │
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  cyber_risk_final    │  ← Clean, analysis-ready dataset
+│       .csv           │
+└────────┬─────────────┘
+         │
+         ▼
+┌──────────────────────┐
+│  Power BI Dashboard  │  ← cyberPulse_dashboard.pbix
+│  Executive KPIs,     │
+│  risk breakdowns,    │
+│  visual storytelling │
+└──────────────────────┘
 
 ---
 
