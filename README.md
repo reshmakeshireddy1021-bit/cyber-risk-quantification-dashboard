@@ -24,6 +24,7 @@ Total exposure identified: **$185,000,000** across scored risk categories.
 ---
 
 🏗️ Project Workflow
+---
 
 Raw Vulnerability Data
         │
@@ -61,6 +62,9 @@ Raw Vulnerability Data
 │  risk breakdowns,    │
 │  visual storytelling │
 └──────────────────────┘
+
+
+ 
 
 ---
 
